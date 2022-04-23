@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nav-links {
+  color: #bfcdd3;
+  text-decoration: none;
+  padding: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-links:hover {
+  color: #63f3e2;
+}
+
+.links-counter {
+  color: #63f3e2;
+}
+
+.nav-logo {
+  width: 40px;
+}
+
+.resume-btn {
+  border: 1px solid #63f3e2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #63f3e2;
+}
