@@ -8,6 +8,7 @@
   color: #bfcdd3;
   text-decoration: none;
   padding: 0 10px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .nav-logo {
-  width: 40px;
+  width: 50px;
 }
 
 .resume-btn {
