@@ -1,21 +1,18 @@
 .social-medias {
-  box-sizing: border-box;
-  position: fixed;
-  /* left: 10%; */
-  top: 50%;
-  width: 20%;
-}
-
-.email-section {
-  box-sizing: border-box;
   position: fixed;
   top: 50%;
-  width: 20%;
+  height: 100vh;
 }
 
-.about-me {
-  box-sizing: border-box;
-  position: relative;
-  top: 50%;
-  width: 60%;
+.social-medias-links {
+  padding: 10px 0;
+}
+
+.social-medias-links a {
+  text-decoration: none;
+  color: #CCD6F6;
+}
+
+.social-medias-links a:hover {
+  color: #63f3e2;
 }

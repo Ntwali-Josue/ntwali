@@ -1,21 +1,34 @@
 import React from "react";
-import './Home.css';
+import { FiGithub, FiInstagram, FiTwitter, FiLinkedin } from "react-icons/fi";
+import "./Home.css";
 
 const Home = () => {
   return (
     <main className="main-section">
       <section className="social-medias">
-          <div> Github </div>
-          <div> Linkedin </div>
-          <div> Twitter </div>
-          <div> Instagram</div>
-          <div className="border-right"></div>
+        <div className="social-medias-links">
+          <a href="/">
+            <FiGithub size={20} /> 
+          </a>
+        </div>
+        <div className="social-medias-links">
+          <a href="/">
+            <FiInstagram size={20} />
+          </a>
+        </div>
+        <div className="social-medias-links">
+          <a href="/">
+            <FiTwitter size={20} />
+          </a>
+        </div>
+        <div className="social-medias-links">
+          <a href="/">
+            <FiLinkedin size={20} />
+          </a>
+        </div>
       </section>
       <section className="about-me">
         <h1> About Me </h1>
-      </section>
-      <section className="email-section">
-        <h1>kntwalijos@gmail.com</h1>
       </section>
     </main>
   );
