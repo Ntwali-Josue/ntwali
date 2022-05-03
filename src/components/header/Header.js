@@ -1,6 +1,7 @@
 import React from "react";
 import image from '../../assets/images/logo.png';
 import { HashLink as Link } from "react-router-hash-link";
+import { FiMoon } from 'react-icons/fi'
 import './Header.css';
 
 const Header = () => (
@@ -21,9 +22,7 @@ const Header = () => (
       <Link className="nav-links" to="#contact">
       <span className="links-counter">04.</span> Contact
       </Link>
-      <Link className="nav-links resume-btn" to="#resume">
-        Resume
-      </Link>
+      <FiMoon className="moon-icon" size={20}/>
     </div>
   </div>
 );

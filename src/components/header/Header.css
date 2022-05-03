@@ -24,10 +24,11 @@
   width: 50px;
 }
 
-.resume-btn {
-  border: 1px solid #63f3e2;
-  padding: 10px;
-  border-radius: 5px;
+.moon-icon {
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.moon-icon:hover {
   color: #63f3e2;
 }
