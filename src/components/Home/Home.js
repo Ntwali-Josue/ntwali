@@ -7,29 +7,26 @@ const Home = () => {
     <main className="main-section">
       <section className="social-medias">
         <div className="social-medias-links">
-          <a href="/">
+          <a className="social-medias-link" href="https://github.com/Ntwali-Josue">
             <FiGithub size={20} /> 
           </a>
-        </div>
-        <div className="social-medias-links">
-          <a href="/">
+          <a className="social-medias-link" href="https://www.instagram.com/joshn_250/">
             <FiInstagram size={20} />
           </a>
-        </div>
-        <div className="social-medias-links">
-          <a href="/">
+          <a className="social-medias-link" href="https://twitter.com/JosueNtwali">
             <FiTwitter size={20} />
           </a>
-        </div>
-        <div className="social-medias-links">
-          <a href="/">
+          <a className="social-medias-link" href="https://www.linkedin.com/in/karangwa/">
             <FiLinkedin size={20} />
           </a>
         </div>
       </section>
-      <section className="about-me">
-        <h1> About Me </h1>
+      <section className="email-section">
+        <div className="email">
+        <a href="mailto:kntwalijos@gmail.com"> kntwalijos@gmail.com</a>
+        </div>
       </section>
+      
     </main>
   );
 };
