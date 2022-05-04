@@ -128,7 +128,7 @@ a {
 
 .main-section {
   width: 80%;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .intro-section {
@@ -155,22 +155,27 @@ a {
   transition-delay: 200ms;
 }
 
-.intro-name h2{
+.intro-name span{
   font-size: 60px;
   color: var(--lightest-slate);
   line-height: 1.1;
+  font-family: var(--font-mono);
 }
 
 .intro-description {
   transition-delay: 300ms;
 }
 
+.intro-description-text {
+  color: var(--green);
+}
+
 .intro-description p {
   margin: 20px 0px 0px;
-  max-width: 540px;
+  max-width: 600px;
   color: var(--slate);
   font-family: var(--font-sans);
-  font-size: var(--fz-xl);
+  font-size: var(--fz-xxl);
   line-height: 1.3;
 }
 
@@ -180,7 +185,7 @@ a {
   border: 1px solid var(--green);
   border-radius: var(--border-radius);
   padding: 1.25rem 1.75rem;
-  font-size: var(--fz-md);
+  font-size: var(--fz-xl);
   font-family: var(--font-mono);
   line-height: 1;
   text-decoration: none;
@@ -190,7 +195,71 @@ a {
 }
 
 .intro-resume a:hover {
-  /* background-color: var(--green); */
-  /* color: #fff; */
-  font-size: var(--fz-lg);
+  background-color: var(--green-tint);
+  font-size: var(--fz-xxl);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+
+.down-arrow {
+  width: 600px;
+  margin-top: 50px;
+  text-align: right;
+  cursor: pointer;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:hover {
+  color: var(--green);
+}
+
+.about-section {
+  height: 100vh;
+  /* background: url(../../assets/images/pc-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  width: 100%;
+}
+
+.file {
+  padding-right: 10px;
+}
+
+.about-me {
+  font-family: var(--font-mono);
+  font-size: var(--fz-md);
+  counter-increment: item 1;
+}
+
+
+.about-me h2 {
+  border-bottom: 1px solid var(--lightest-slate);
+  width: 150px;
+  color: var(--white);
+}
+
+.counter {
+  color: var(--green);
+  padding-right: 2px;
+}
+
+.about-me-description {
+  margin: 20px 0px 0px;
+  max-width: 600px;
+  color: var(--slate);
+  font-family: var(--font-sans);
+  font-size: var(--fz-xxl);
+  line-height: 1.3;
 }

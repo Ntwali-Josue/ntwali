@@ -1,15 +1,16 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 30px 30px;
+  
 }
 
 .nav-links {
   color: #bfcdd3;
   text-decoration: none;
   padding: 0 10px;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
 
 .nav-links:hover {
