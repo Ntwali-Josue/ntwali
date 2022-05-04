@@ -101,7 +101,7 @@ a {
   position: relative;
 }
 
-.email a{
+.email a {
   margin: 1 0px auto;
   padding: 10px;
   font-family: var(--font-mono);
@@ -204,13 +204,16 @@ a {
     margin-top: 0;
   }
   50% {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   100% {
     margin-top: 0;
   }
 }
 
+.file {
+  padding-right: 10px;
+}
 
 .down-arrow {
   width: 600px;
@@ -222,44 +225,4 @@ a {
 
 .down-arrow:hover {
   color: var(--green);
-}
-
-.about-section {
-  height: 100vh;
-  /* background: url(../../assets/images/pc-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-  width: 100%;
-}
-
-.file {
-  padding-right: 10px;
-}
-
-.about-me {
-  font-family: var(--font-mono);
-  font-size: var(--fz-md);
-  counter-increment: item 1;
-}
-
-
-.about-me h2 {
-  border-bottom: 1px solid var(--lightest-slate);
-  width: 150px;
-  color: var(--white);
-}
-
-.counter {
-  color: var(--green);
-  padding-right: 2px;
-}
-
-.about-me-description {
-  margin: 20px 0px 0px;
-  max-width: 600px;
-  color: var(--slate);
-  font-family: var(--font-sans);
-  font-size: var(--fz-xxl);
-  line-height: 1.3;
 }

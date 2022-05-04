@@ -7,9 +7,9 @@ import {
   FiArrowDown,
   FiFileText,
 } from "react-icons/fi";
-import {FaLaptopCode} from "react-icons/fa";
 import TypeAnimation from "react-type-animation";
 import "./Home.css";
+import About from "../About/About";
 
 const Home = () => {
   return (
@@ -83,7 +83,7 @@ const Home = () => {
                 2000,
               ]}
               speed={100}
-              wrapper="c"
+              wrapper="a"
               repeat={Infinity}  
               className="intro-description-text"            
             />
@@ -107,21 +107,8 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <section className="about-section" id="about">
-        <div className="about-me">
-          <h2>
-            <span className="counter">01.</span>About me
-          </h2>
-        </div>
-        <div className="about-me-description">
-          <p>
-            I am a full stack developer with a passion for building
-            applications. I have a strong background in both front-end and
-            backend development. I am currently freelancing and looking for a
-            new challenge.
-          </p>
-        </div>
-      </section>
+      <About />
+
     </div>
   );
 };
