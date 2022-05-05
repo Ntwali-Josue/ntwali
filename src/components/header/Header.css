@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   margin: 30px 30px;
-  
+}
+
+.code-icon {
+  color: var(--green);
 }
 
 .nav-links {

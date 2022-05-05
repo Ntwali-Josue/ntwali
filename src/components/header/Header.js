@@ -1,13 +1,13 @@
 import React from "react";
-import image from '../../assets/images/logo.png';
+// import image from '../../assets/images/logo.png';
 import { HashLink as Link } from "react-router-hash-link";
-import { FiMoon } from 'react-icons/fi'
+import { FiMoon, FiCode } from 'react-icons/fi'
 import './Header.css';
 
 const Header = () => (
   <div className="header">
     <Link to="/">
-      <img src={image} alt="header logo" className="nav-logo" />
+      <FiCode size={30} className="code-icon" />
     </Link>
     <div className="nav-links-section">
       <Link className="nav-links" to="#about">

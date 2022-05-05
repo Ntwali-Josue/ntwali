@@ -148,7 +148,6 @@ a {
   font-family: var(--font-mono);
   font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
   font-weight: 400;
-  line-height: 1.2;
 }
 
 .intro-name {
@@ -159,7 +158,8 @@ a {
   font-size: 60px;
   color: var(--lightest-slate);
   line-height: 1.1;
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
+  font-weight: bold;
 }
 
 .intro-description {
