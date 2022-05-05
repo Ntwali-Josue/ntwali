@@ -9,7 +9,6 @@ import {
 } from "react-icons/fi";
 import TypeAnimation from "react-type-animation";
 import "./Home.css";
-import About from "../About/About";
 
 const Home = () => {
   return (
@@ -107,8 +106,6 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <About />
-
     </div>
   );
 };

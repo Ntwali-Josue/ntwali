@@ -1,5 +1,4 @@
 import React from "react";
-import { FiArrowDown } from "react-icons/fi";
 import profile from "../../assets/images/profile.jpeg";
 import "./About.css";
 
@@ -46,11 +45,6 @@ const About = () => {
             <li>Gitlab</li>
           </ul>
         </div>
-      </div>
-      <div className="down-arrow">
-            <a href="#experience">
-              <FiArrowDown size={60} />
-            </a>
       </div>
     </section>
   );

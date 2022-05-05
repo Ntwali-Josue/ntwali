@@ -1,0 +1,142 @@
+.experience-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.experience-section::before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.1;
+  background: url(../../assets/images/experience.bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.experience-content {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.title-section {
+  font-family: var(--font-mono);
+}
+
+.title-section h2 {
+  border-bottom: 1px solid var(--lightest-slate);
+  width: 180px;
+  color: var(--white);
+}
+
+.react-tabs {
+  display: flex;
+}
+
+.react-tabs__tab-list {
+  margin:20px;
+}
+
+.react-tabs__tab-list li {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: var(--tab-height);
+  padding: 2px 10px;
+  border-left: 2px solid var(--lightest-navy);
+  background-color: transparent;
+  color: var(--light-slate);
+  font-family: var(--font-mono);
+  font-size: var(--fz-sm);
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.react-tabs__tab-panel {
+  margin: 0 20px;
+}
+
+.react-tabs__tab-list li:focus {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.react-tabs__tab-list li:hover {
+  color: var(--green);
+  background-color: var(--lightest-navy);
+  border-color: var(--green);
+} 
+
+.react-tabs__tab-list li.react-tabs__tab--selected {
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.experience-description {
+  width: 100%;
+  height: auto;
+}
+
+.experience-title h3 {
+  margin-bottom: 2px;
+  font-size: var(--fz-xxl);
+  font-weight: 500;
+  color: var(--white);
+  font-family: var(--font-sans);
+}
+
+.experience-title h3 .company {
+  color: var(--green);
+  display: inline-block;
+  position: relative;
+}
+
+.experience-title h3 .company::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--green);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.experience-title h3:hover .company::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.date {
+  margin-bottom: 25px;
+  color: var(--light-slate);
+  font-family: var(--font-sans);
+  font-size: var(--fz-xs);
+}
+
+.experience-details {
+  font-size: var(--fz-md);
+  font-family: var(--font-sans);
+  line-height: 1.2;
+  color: var(--lightest-slate);
+}
+
+.arrow-right {
+  color: var(--green);
+  margin-right: 10px;
+}
