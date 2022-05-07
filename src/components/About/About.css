@@ -70,6 +70,9 @@
   counter-increment: item 1;
 }
 
+.skills {
+  color: var(--light-slate);
+}
 
 .about-me h2 {
   border-bottom: 1px solid var(--lightest-slate);
@@ -84,8 +87,8 @@
 
 .about-me-description {
   margin: 20px 0px 0px;
-  width: 60%;
-  color: var(--light-slate);
+  width: 65%;
+  color: var(--lightest-slate);
   font-family: var(--font-sans);
   font-size: var(--fz-xxl);
   line-height: 1.3;

@@ -25,24 +25,24 @@ const About = () => {
         <div className="about-me-skills">
           <ul>
             <li className="list-title">Languages</li>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>Html</li>
-            <li>Css</li>
+            <li className="skills">JavaScript</li>
+            <li className="skills">Ruby</li>
+            <li className="skills">Html</li>
+            <li className="skills">Css</li>
           </ul>
           <ul className="frameworks-list">
             <li className="list-title">Frameworks</li>
-            <li>Boostrap</li>
-            <li>Ruby on Rails</li>
-            <li>RSPev</li>
-            <li>CapyBara</li>
+            <li className="skills">Boostrap</li>
+            <li className="skills">Ruby on Rails</li>
+            <li className="skills">RSPev</li>
+            <li className="skills">CapyBara</li>
           </ul>
           <ul className="skills-list">
             <li className="list-title">Skills</li>
-            <li>Codekit</li>
-            <li>Github</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
+            <li className="skills">Codekit</li>
+            <li className="skills">Github</li>
+            <li className="skills">Codepen</li>
+            <li className="skills">Gitlab</li>
           </ul>
         </div>
       </div>
