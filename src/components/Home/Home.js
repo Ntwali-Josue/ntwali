@@ -12,7 +12,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <section className="social-medias">
         <div className="social-medias-links">
           <a
@@ -69,16 +69,16 @@ const Home = () => {
             <span>Karangwa Ntwali Josue</span>
           </div>
           <div className="intro-description">
-            <p>I am a
+            <p>I am
             {" "}
             <TypeAnimation
               cursor={true}
               sequence={[
-                `Full Stack developer`,
+                `a Software Engineer`,
                 2000,
-                "Open Source enthusiast",
+                "an Open Source enthusiast",
                 2000,
-                "Student ",
+                "a Student",
                 2000,
               ]}
               speed={100}
@@ -94,7 +94,7 @@ const Home = () => {
             </p>
           </div>
           <div className="intro-resume">
-            <a href="/" target="_blank" rel="noreferrer">
+            <a href="resume.pdf" target="_blank" rel="noreferrer">
               <FiFileText size={20} className="file" />
               GET MY RESUME
             </a>

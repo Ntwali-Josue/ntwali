@@ -36,7 +36,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -47,7 +47,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -58,7 +58,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -82,7 +82,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -93,7 +93,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -104,7 +104,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -128,7 +128,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -139,7 +139,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -150,7 +150,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -174,7 +174,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -185,7 +185,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -196,7 +196,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -220,7 +220,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -231,7 +231,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup
@@ -242,7 +242,7 @@ const Experience = () => {
                   </div>
                   <div className="flex experience-details">
                     <p>
-                      <GiDiamonds size={10} className="arrow-right"/>
+                      <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
                       I worked as a software engineer at Microverse, a startup

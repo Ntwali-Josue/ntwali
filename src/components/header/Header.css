@@ -1,7 +1,12 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 30px 30px;
+  padding: 10px 20px;
+  position: fixed;
+  width: 97%;
+  border-bottom: var(--navy-shadow);
+  background: transparent;
+  z-index: 3;
 }
 
 .code-icon {
@@ -35,4 +40,20 @@
 
 .moon-icon:hover {
   color: #63f3e2;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .nav-links-section {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-right: 40px;
+    color: var(--green);
+  }
 }

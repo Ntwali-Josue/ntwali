@@ -1,65 +1,25 @@
-:root {
-  --dark-navy: #020c1b;
-  --navy: #0a192f;
-  --light-navy: #112240;
-  --lightest-navy: #233554;
-  --navy-shadow: rgba(2,12,27,0.7);
-  --dark-slate: #495670;
-  --slate: #8892b0;
-  --light-slate: #a8b2d1;
-  --lightest-slate: #ccd6f6;
-  --white: #e6f1ff;
-  --green: #64ffda;
-  --green-tint: rgba(100,255,218,0.1);
-  --pink: #f57dff;
-  --blue: #57cbff;
-  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
-  --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-  --fz-xxs: 12px;
-  --fz-xs: 13px;
-  --fz-sm: 14px;
-  --fz-md: 16px;
-  --fz-lg: 18px;
-  --fz-xl: 20px;
-  --fz-xxl: 22px;
-  --fz-heading: 32px;
-  --border-radius: 4px;
-  --nav-height: 100px;
-  --nav-scroll-height: 70px;
-  --tab-height: 42px;
-  --tab-width: 120px;
-  --easing: cubic-bezier(0.645,0.045,0.355,1);
-  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  --hamburger-width: 30px;
-  --ham-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
-  --ham-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
-  --ham-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
-  --ham-after-active: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
-}
-
 a {
   display: inline-block;
   text-decoration: none;
-  text-decoration-skip-ink: auto;
   color: inherit;
-  position: relative;
-  transition: var(--transition);
+}
+
+.home {
+  padding-top: 100px;
 }
 
 .social-medias {
   width: 40px;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   left: 40px;
   right: auto;
-  z-index: 10;
   color: var(--light-slate);
 }
 
 .social-medias-links {
   display: flex;
   flex-direction: column;
-  -webkit-box-align: center;
   align-items: center;
 }
 
@@ -86,10 +46,9 @@ a {
 .email-section {
   width: 40px;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   left: auto;
   right: 40px;
-  z-index: 10;
   color: var(--light-slate);
 }
 
@@ -102,12 +61,11 @@ a {
 }
 
 .email a {
-  margin: 1 0px auto;
+  margin: 1 0 auto;
   padding: 10px;
   font-family: var(--font-mono);
   font-size: var(--fz-xxs);
-  line-height: var(--fz-lg);
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
 }
@@ -128,7 +86,7 @@ a {
 
 .main-section {
   width: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .intro-section {
@@ -139,31 +97,17 @@ a {
   margin: 0 auto;
 }
 
-.intro {
-  transition-delay: 100ms;
-}
-
 .intro h1 {
   color: var(--green);
   font-family: var(--font-mono);
-  font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
   font-weight: 400;
-}
-
-.intro-name {
-  transition-delay: 200ms;
 }
 
 .intro-name span{
   font-size: 60px;
   color: var(--lightest-slate);
-  line-height: 1.1;
   font-family: var(--font-sans);
   font-weight: bold;
-}
-
-.intro-description {
-  transition-delay: 300ms;
 }
 
 .intro-description-text {
@@ -171,26 +115,21 @@ a {
 }
 
 .intro-description p {
-  margin: 20px 0px 0px;
+  margin: 20px 0 0;
   max-width: 600px;
   color: var(--slate);
   font-family: var(--font-sans);
   font-size: var(--fz-xxl);
-  line-height: 1.3;
 }
 
 .intro-resume a {
   color: var(--green);
-  background-color: transparent;
   border: 1px solid var(--green);
   border-radius: var(--border-radius);
   padding: 1.25rem 1.75rem;
   font-size: var(--fz-xl);
   font-family: var(--font-mono);
-  line-height: 1;
-  text-decoration: none;
   cursor: pointer;
-  transition: var(--transition);
   margin-top: 50px;
 }
 
@@ -217,12 +156,38 @@ a {
 
 .down-arrow {
   width: 600px;
-  margin-top: 50px;
+  margin-top: 80px;
   text-align: right;
   cursor: pointer;
-  animation: jumpInfinite 1.5s infinite;
+  animation: jumpInfinite 2.0s infinite;
 }
 
 .down-arrow:hover {
   color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .social-medias {
+    display: none;
+  }
+  
+  .email-section {
+    display: none;
+  }
+
+  .down-arrow {
+    display: none;
+  }
+
+  @keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 0;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
 }

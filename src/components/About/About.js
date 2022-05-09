@@ -12,6 +12,7 @@ const About = () => {
           </h2>
         </div>
         <div className="flex">
+          <img src={profile} alt="profile" width="300px" className="profile-image-mobile"/>
           <div className="about-me-description">
             <p>
               I am a full stack developer with a passion for building

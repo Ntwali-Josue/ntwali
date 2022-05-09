@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  padding-top: 20px;
 }
 
 .experience-section::before {
@@ -23,7 +22,6 @@
   position: relative;
   width: 60%;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .title-section {
@@ -41,26 +39,18 @@
 }
 
 .react-tabs__tab-list {
-  margin:20px;
+  margin: 20px;
 }
 
 .react-tabs__tab-list li {
-  text-decoration: none;
-  text-decoration-skip-ink: auto;
-  position: relative;
-  transition: var(--transition);
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  width: 100%;
   height: var(--tab-height);
   padding: 2px 10px;
   border-left: 2px solid var(--lightest-navy);
-  background-color: transparent;
   color: var(--light-slate);
   font-family: var(--font-mono);
   font-size: var(--fz-sm);
-  text-align: left;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -100,8 +90,6 @@
 
 .experience-title h3 .company {
   color: var(--green);
-  display: inline-block;
-  position: relative;
 }
 
 .experience-title h3 .company::after {
@@ -132,11 +120,44 @@
 .experience-details {
   font-size: var(--fz-md);
   font-family: var(--font-sans);
-  line-height: 1.2;
   color: var(--lightest-slate);
 }
 
-.arrow-right {
+.diamond {
   color: var(--green);
   margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .experience-section::before {
+    background: none;
+  }
+
+  .experience-section {
+    height: 100%;
+  }
+
+  .experience-content {
+    width: 100%;
+  }
+
+  .react-tabs {
+    display: block;
+  }
+
+  .react-tabs__tab-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .react-tabs__tab-list li {
+    border-left: none;
+    border-bottom: 2px solid var(--lightest-navy);
+  }
+
+  .react-tabs__tab-panel {
+    margin: 0 auto;
+    width: 80%;
+  }
 }

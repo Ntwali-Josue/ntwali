@@ -1,5 +1,4 @@
 .work-section {
-  height: 100vh;
   width: 100%;
 }
 
@@ -56,9 +55,7 @@
 }
 
 .project-description p {
-  transition: var(--transition);
   position: relative;
-  z-index: 2;
   padding: 25px;
   border-radius: var(--border-radius);
   background-color: var(--light-navy);
@@ -99,16 +96,11 @@ li {
   color: var(--green);
 }
 
-.project-descriptionleft {
-  text-align: left;
-}
-
 .left {
   margin: 50px 0;
 }
 
 .project-description-left p {
-  transition: var(--transition);
   position: relative;
   z-index: 2;
   padding: 25px;
@@ -150,11 +142,15 @@ li {
 
 .project-card-content {
   box-shadow: 0 10px 30px -15px var(--navy-shadow);
-  height: 100%;
-  padding: 15px 20px;
+  padding: 15px 25px;
   border-radius: var(--border-radius);
   background-color: var(--light-navy);
-  transition: var(--transition);
+  transition: border;
+}
+
+.project-card-content:hover {
+  border: 1px solid var(--green);
+  transition: border 1s ease;
 }
 
 .project-card-top {
@@ -199,4 +195,84 @@ li {
   justify-content: space-evenly;
   font-family: var(--font-mono);
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .work-section {
+    width: 95%;
+  }
+
+  .work-content {
+    width: 100%;
+  }
+
+  .work-list {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .work-item {
+    display: grid;
+  }
+
+  .project-image {
+    position: absolute;
+    opacity: 0.1;
+  }
+
+  .project-image img {
+    width: 450px;
+    height: 370px;
+  }
+
+  .project-description::before, .project-description-left::before {
+    content: '';
+    background-color: var(--navy-shadow);
+    height: 370px;
+    width: 450px;
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    opacity: 0.1;
+  }
+
+  .project-description, .project-description-left {
+    position: relative;
+    text-align: justify;
+    padding: 30px 25px;
+    width: 400px;
+  }
+
+  .project-description p, .project-description-left p {
+    font-size: var(--fz-md);
+    box-shadow: none;
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--lightest-slate);
+    font-size: var(--fz-lg);
+  }
+
+  .project-links, .project-details {
+    color: var(--lightest-slate);
+    font-size: var(--fz-lg);
+  }
+
+  .more-projects {
+    width: 100%;
+    margin-right: 20px;
+    align-items: flex-start;
+  }
+
+  .more-projects-title {
+    margin-left: 10%;
+  }
+
+  .projects-section {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 100%;
+  }
+
 }
