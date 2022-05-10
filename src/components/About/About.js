@@ -19,7 +19,7 @@ const About = () => {
               I am always striving to contribute to problem-solving activities using my programming skills. I enjoy being in a tech community, and passionate about building first-class web applications I am currently looking for a role as full-stack web developer. Below are a summarized list of technologies I mostly use
             </p>
           </div>
-            <img src={profile} alt="profile" width="300px" className="profile-image"/>
+            <img src={profile} alt="profile" width="350px" className="profile-image"/>
         </div>
         <div className="about-me-skills">
           <ul>
