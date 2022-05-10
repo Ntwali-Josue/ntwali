@@ -88,26 +88,12 @@
   font-family: var(--font-sans);
 }
 
-.experience-title h3 .company {
+.company {
   color: var(--green);
 }
 
-.experience-title h3 .company::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: var(--green);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.experience-title h3:hover .company::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.company:hover {
+  border-bottom: 1px solid var(--green);
 }
 
 .date {
@@ -147,7 +133,7 @@
 
   .react-tabs__tab-list {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     margin: 0;
   }
 
@@ -157,7 +143,9 @@
   }
 
   .react-tabs__tab-panel {
-    margin: 0 auto;
-    width: 80%;
+    /* margin: 0 auto; */
+    width: 450px;
+    margin-left: 30px;
+    /* text-align: center; */
   }
 }
