@@ -1,0 +1,14 @@
+.resume {
+  clear: both;
+  top: 50%;
+  left: 50%;
+  width: 596px;
+  height: 842px;
+  margin: 30px auto;
+  box-shadow: 0 3px 10px var(--white);
+}
+
+.resume h1 {
+  text-align: center;
+  color: var(--white);
+}

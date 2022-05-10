@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import './Resume.css';
 
 const Resume = () => {
   const [numPages, setNumPages] = useState(null);
@@ -11,9 +13,6 @@ const Resume = () => {
 
   return (
     <div className="resume">
-      <h1>
-        Page {pageNumber} of {numPages}
-      </h1>
       <Document file="CV.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>

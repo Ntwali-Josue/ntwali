@@ -1,11 +1,15 @@
 body {
-  background-color: #0A192F;
   margin: 0;
   padding: 0;
   color: #fff;
+  background-color: #0A192F;
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.app {
+  background-color: #0A192F;
 }
 
 body::-webkit-scrollbar {
