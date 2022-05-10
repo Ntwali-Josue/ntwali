@@ -158,7 +158,7 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
-                    Run backend apps using Python Django framework to deliver solutions and meet clients’ needs.
+                    Run backend apps using Python Django framework to deliver solutions and meet clients’ needs
                     </p>
                   </div>
                   <div className="flex experience-details">
@@ -166,7 +166,7 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond"/>
                     </p>
                     <p>
-                    Implemented and improved pharmIQ UI as suggested by the Product Manager.
+                    Implemented and improved pharmIQ UI as suggested by the Product Manager and the stakeholders.
                     </p>
                   </div>
                   <div className="flex experience-details">
