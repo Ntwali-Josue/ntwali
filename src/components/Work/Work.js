@@ -33,9 +33,9 @@ const Work = () => {
               </p>
               <div className="project-links">
                 <ul>
-                  <li>React</li>
+                  <li>React & Redux</li>
                   <li>Rails</li>
-                  <li>Python</li>
+                  <li>Node.js</li>
                   <li>SQL</li>
                 </ul>
               </div>
@@ -155,10 +155,10 @@ const Work = () => {
               </p>
               <div className="project-links">
                 <ul>
-                  <li>React</li>
-                  <li>Rails</li>
-                  <li>Python</li>
+                  <li>React & Redux</li>
+                  <li>Node.js</li>
                   <li>SQL</li>
+                  <li>API</li>
                 </ul>
               </div>
               <div className="project-details">
@@ -325,7 +325,7 @@ const Work = () => {
                   </p>
                 </div>
                 <div className="project-card-stacks">
-                  <span>Javascript</span>
+                  <span>Node.js</span>
                   <span>Postgresql</span>
                   <span>API</span>
                 </div>
@@ -368,7 +368,7 @@ const Work = () => {
                 <div className="project-card-stacks">
                   <span>React</span>
                   <span>Redux</span>
-                  <span>Javascript</span>
+                  <span>Node.js</span>
                   <span>API</span>
                 </div>
               </div>
@@ -411,9 +411,9 @@ const Work = () => {
                 </div>
                 <div className="project-card-stacks">
                   <span>React</span>
-                  <span>Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Node.js</span>
+                  <span>Html</span>
+                  <span>webpack</span>
                 </div>
               </div>
             </li>
