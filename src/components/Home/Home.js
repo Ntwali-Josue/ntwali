@@ -9,7 +9,7 @@ import {
 } from "react-icons/fi";
 import TypeAnimation from "react-type-animation";
 import "./Home.css";
-import Header from "../Header/Header";
+import Header from "../header/Header";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
 import Work from "../Work/Work";
