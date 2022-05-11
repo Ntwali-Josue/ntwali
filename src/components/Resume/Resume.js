@@ -4,7 +4,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import './Resume.css';
 
 const Resume = () => {
-  const [setNumPages] = useState(null);
+  const [numPages, setNumPages] = useState(null);
   const [pageNumber] = useState(1);
 
   const onDocumentLoadSuccess = ({ numPages }) => {
