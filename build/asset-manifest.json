@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/jocode/static/css/main.04b3a9e6.css",
+    "main.js": "/jocode/static/js/main.beaca2a3.js",
+    "pdf.worker.js": "/jocode/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/book-space.PNG": "/jocode/static/media/book-space.e8ca7d5fa6949c7d3155.PNG",
+    "static/media/pc-bg.jpg": "/jocode/static/media/pc-bg.f4315aa84fc38fc92d7b.jpg",
+    "static/media/profile.jpeg": "/jocode/static/media/profile.54a6aab069935d33b497.jpeg",
+    "static/media/falcon.JPG": "/jocode/static/media/falcon.2bbaadbf8b4fff70a615.JPG",
+    "static/media/zero-thirsty.JPG": "/jocode/static/media/zero-thirsty.67f2344c8ed54226e3f5.JPG",
+    "static/media/budget-app.JPG": "/jocode/static/media/budget-app.c1cd410fff5790379718.JPG",
+    "static/media/experience.bg.webp": "/jocode/static/media/experience.bg.45e0596bf74ee374202b.webp",
+    "index.html": "/jocode/index.html",
+    "main.04b3a9e6.css.map": "/jocode/static/css/main.04b3a9e6.css.map",
+    "main.beaca2a3.js.map": "/jocode/static/js/main.beaca2a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04b3a9e6.css",
+    "static/js/main.beaca2a3.js"
+  ]
+}
