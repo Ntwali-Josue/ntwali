@@ -10,7 +10,6 @@ import {
 import TypeAnimation from "react-type-animation";
 import "./Home.css";
 import Header from "../Header/Header";
-// import Home from "./Home/Home";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
 import Work from "../Work/Work";
