@@ -1,47 +1,39 @@
-const webpack = require('webpack');
+const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const port = process.env.PORT || 3000;
 
 module.exports = {
-  entry: './src/index.js',
+  entry: path.join(__dirname, "src", "index.js"),
   output: {
-    filename: 'bundle.[hash].js'
+    path:path.resolve(__dirname, "dist"),
   },
-
   module: {
     rules: [
-
-      // First Rule
       {
-        test: /\.(js)$/,
+        test: /\.?js$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      },
-
-      // Second Rule
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader'
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              modules: true,
-              localsConvention: 'camelCase',
-              sourceMap: true
-            }
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react']
           }
-        ]
-      }
+        }
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: ['file-loader'],
+      },
     ]
   },
-  devServer: {
-    host: 'localhost',
-    port: port,
-    historyApiFallback: true,
-    open: true
-  }
+  plugins: [
+    new CaseSensitivePathsPlugin(),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, "src", "index.html"),
+    }),
+  ],
 }
