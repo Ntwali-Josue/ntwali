@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import Resume from "./Resume/Resume";
 
 const App = () => (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Resume />} path="/resume.pdf" />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 export default App;
