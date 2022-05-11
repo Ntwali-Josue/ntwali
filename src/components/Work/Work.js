@@ -34,7 +34,7 @@ const Work = () => {
               <div className="project-links">
                 <ul>
                   <li>React</li>
-                  <li>Ruby On Rails</li>
+                  <li>Rails</li>
                   <li>Python</li>
                   <li>SQL</li>
                 </ul>
@@ -71,7 +71,7 @@ const Work = () => {
               <div className="project-links">
                 <ul>
                   <li>React</li>
-                  <li>Ruby On Rails</li>
+                  <li>Rails</li>
                   <li>RSpec</li>
                   <li>Postgresql</li>
                   <li>Heroku</li>
@@ -145,16 +145,18 @@ const Work = () => {
               <span className="featured">Feature project</span>
               <h3 className="project-title">Space traveller's Hub</h3>
               <p>
-              Space Traveler' Hub is designed to allow cliant to get latest information about the space 
-              rockets and missions availiabele at SpaceX.
-              The app allows user to reserve one or several rockets as well as join one or several space missions.
-              All reservations and missions can be canceled by pressing the respective buttons.
-              All reserved rockets and joined missions can also be monitored in a Profile section.
+                Space Traveler' Hub is designed to allow cliant to get latest
+                information about the space rockets and missions availiabele at
+                SpaceX. The app allows user to reserve one or several rockets as
+                well as join one or several space missions. All reservations and
+                missions can be canceled by pressing the respective buttons. All
+                reserved rockets and joined missions can also be monitored in a
+                Profile section.
               </p>
               <div className="project-links">
                 <ul>
                   <li>React</li>
-                  <li>Ruby On Rails</li>
+                  <li>Rails</li>
                   <li>Python</li>
                   <li>SQL</li>
                 </ul>
@@ -191,29 +193,34 @@ const Work = () => {
                 <div className="project-card-top">
                   <FiFolder size={25} className="folder" />
                   <div>
-                    <FiGithub size={25} className="project-external-link" />
-                    <FiExternalLink
-                      size={25}
-                      className="project-external-link"
-                    />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/RecipeApp"
+                    >
+                      <FiGithub size={25} className="project-external-link" />
+                    </a>
                   </div>
                 </div>
                 <h3 className="project-card-title">
-                  <a href="/" target="_blank" rel="noopener noreferrer">
-                    Book Office Space
+                  <a
+                    href="https://github.com/Ntwali-Josue/RecipeApp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Recipe App
                   </a>
                 </h3>
                 <div className="project-card-description">
                   <p>
-                    Book Space is a web application that allows users to search
-                    for books and create a list of books they want to read.
+                    Recipe App is a web application that allows users to create,
+                    and delete recipes, foods, and ingredients.
                   </p>
                 </div>
                 <div className="project-card-stacks">
                   <span>React</span>
-                  <span>Ruby On Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Rails</span>
+                  <span>Postgresql</span>
                 </div>
               </div>
             </li>
@@ -222,29 +229,30 @@ const Work = () => {
                 <div className="project-card-top">
                   <FiFolder size={25} className="folder" />
                   <div>
-                    <FiGithub size={25} className="project-external-link" />
-                    <FiExternalLink
-                      size={25}
-                      className="project-external-link"
-                    />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/Blog-app"
+                    >
+                      <FiGithub size={25} className="project-external-link" />
+                    </a>
                   </div>
                 </div>
                 <h3 className="project-card-title">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    Book Office Space
+                    Blog App
                   </a>
                 </h3>
                 <div className="project-card-description">
                   <p>
-                    Book Space is a web application that allows users to search
-                    for books and create a list of books they want to read.
+                    Blog App is a CRUD web application that is built with MVC
+                    architecture, to allows users to manage their posts.
                   </p>
                 </div>
                 <div className="project-card-stacks">
-                  <span>React</span>
-                  <span>Ruby On Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Rails</span>
+                  <span>RSpec</span>
+                  <span>Postgresql</span>
                 </div>
               </div>
             </li>
@@ -253,29 +261,31 @@ const Work = () => {
                 <div className="project-card-top">
                   <FiFolder size={25} className="folder" />
                   <div>
-                    <FiGithub size={25} className="project-external-link" />
-                    <FiExternalLink
-                      size={25}
-                      className="project-external-link"
-                    />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/School-Library"
+                    >
+                      <FiGithub size={25} className="project-external-link" />
+                    </a>
                   </div>
                 </div>
                 <h3 className="project-card-title">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    Book Office Space
+                    School library
                   </a>
                 </h3>
                 <div className="project-card-description">
                   <p>
-                    Book Space is a web application that allows users to search
-                    for books and create a list of books they want to read.
+                    Simple UI console app built for allowing Users to manage
+                    library for adding books, students or teachers, rentals for
+                    any book.
                   </p>
                 </div>
                 <div className="project-card-stacks">
-                  <span>React</span>
-                  <span>Ruby On Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Ruby</span>
+                  <span>RSpec</span>
+                  <span>Postgresql</span>
                 </div>
               </div>
             </li>
@@ -284,29 +294,40 @@ const Work = () => {
                 <div className="project-card-top">
                   <FiFolder size={25} className="folder" />
                   <div>
-                    <FiGithub size={25} className="project-external-link" />
-                    <FiExternalLink
-                      size={25}
-                      className="project-external-link"
-                    />
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/leaderboard"
+                    >
+                      <FiGithub size={25} className="project-external-link" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="htpps://ntwali-josue.github.io/leaderboard"
+                    >
+                      <FiExternalLink
+                        size={25}
+                        className="project-external-link"
+                      />
+                    </a>
                   </div>
                 </div>
                 <h3 className="project-card-title">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    Book Office Space
+                    Leaderboard
                   </a>
                 </h3>
                 <div className="project-card-description">
                   <p>
-                    Book Space is a web application that allows users to search
-                    for books and create a list of books they want to read.
+                  The leaderboard website displays scores submitted by different players.
+                  It also allows you to submit your score.
                   </p>
                 </div>
                 <div className="project-card-stacks">
-                  <span>React</span>
-                  <span>Ruby On Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Javascript</span>
+                  <span>Postgresql</span>
+                  <span>API</span>
                 </div>
               </div>
             </li>
@@ -315,29 +336,40 @@ const Work = () => {
                 <div className="project-card-top">
                   <FiFolder size={25} className="folder" />
                   <div>
-                    <FiGithub size={25} className="project-external-link" />
-                    <FiExternalLink
-                      size={25}
-                      className="project-external-link"
-                    />
+                  <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/tronald-trump"
+                    >
+                      <FiGithub size={25} className="project-external-link" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://ntwali-josue.github.io/react-capstone-project"
+                    >
+                      <FiExternalLink
+                        size={25}
+                        className="project-external-link"
+                      />
+                    </a>
                   </div>
                 </div>
                 <h3 className="project-card-title">
                   <a href="/" target="_blank" rel="noopener noreferrer">
-                    Book Office Space
+                    Tronald Trump
                   </a>
                 </h3>
                 <div className="project-card-description">
                   <p>
-                    Book Space is a web application that allows users to search
-                    for books and create a list of books they want to read.
+                  A mobile web app that helps the user to navigate through Donald Trump's quotes related to a chosen or filtered topic.
                   </p>
                 </div>
                 <div className="project-card-stacks">
                   <span>React</span>
-                  <span>Ruby On Rails</span>
-                  <span>Python</span>
-                  <span>SQL</span>
+                  <span>Redux</span>
+                  <span>Javascript</span>
+                  <span>API</span>
                 </div>
               </div>
             </li>
@@ -347,29 +379,39 @@ const Work = () => {
                   <div className="project-card-top">
                     <FiFolder size={25} className="folder" />
                     <div>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://github.com/Ntwali-Josue/Math-Magician"
+                    >
                       <FiGithub size={25} className="project-external-link" />
+                    </a>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://ntwali-josue.github.io/Math-Magician/"
+                    >
                       <FiExternalLink
                         size={25}
                         className="project-external-link"
                       />
+                    </a>
                     </div>
                   </div>
                   <h3 className="project-card-title">
                     <a href="/" target="_blank" rel="noopener noreferrer">
-                      Book Office Space
+                      Math Magician
                     </a>
                   </h3>
                   <div className="project-card-description">
                     <p>
-                      Book Space is a web application that allows users to
-                      search for books and create a list of books they want to
-                      read.
+                    A website application for all the fans of mathematics that allow users to make calculations and get random mathematics quotes.
                     </p>
                   </div>
                 </div>
                 <div className="project-card-stacks">
                   <span>React</span>
-                  <span>Ruby On Rails</span>
+                  <span>Rails</span>
                   <span>Python</span>
                   <span>SQL</span>
                 </div>

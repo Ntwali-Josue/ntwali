@@ -102,7 +102,7 @@ const Home = () => {
             <div className="intro-resume">
               <a href="resume.pdf" target="_blank" rel="noreferrer">
                 <FiFileText size={20} className="file" />
-                GET MY RESUME
+                CHECKOUT MY RESUME
               </a>
             </div>
             <div className="down-arrow">
