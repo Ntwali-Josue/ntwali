@@ -1,15 +1,15 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import Resume from "./Resume/Resume";
 
 const App = () => (
-    <HashRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Resume />} path="/resume.pdf" />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
 );
 
 export default App;
