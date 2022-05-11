@@ -13,6 +13,9 @@ const Resume = () => {
 
   return (
     <div className="resume">
+      <h1 className="resume-title">
+        Resume <span>{numPages}</span>
+      </h1>
       <Document file="CV.pdf" onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={pageNumber} />
       </Document>

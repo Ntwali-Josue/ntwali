@@ -12,3 +12,7 @@
   text-align: center;
   color: var(--white);
 }
+
+.resume-title {
+  display: none;
+}
