@@ -4,7 +4,7 @@ import Home from "./Home/Home";
 import Resume from "./Resume/Resume";
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route element={<Home />} path="/" />
         <Route element={<Resume />} path="/resume.pdf" />
