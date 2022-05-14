@@ -15,8 +15,7 @@ const About = () => {
           <img src={profile} alt="profile" width="300px" className="profile-image-mobile"/>
           <div className="about-me-description">
             <p>
-              I am an enthusiastic Software developer with a year and half of experience in web design and development across diverse industries,  includes programming, debugging, and wireframes.
-              I am always striving to contribute to problem-solving activities using my programming skills. I enjoy being in a tech community, and passionate about building first-class web applications I am currently looking for a role as full-stack web developer. Below are a summarized list of technologies I mostly use
+            I am an enthusiastic Software developer with a year and a half of experience in web design and development across diverse industries, including programming, debugging, and wireframes. I am always striving to contribute to problem-solving activities using my programming skills. I enjoy being in a tech community and am passionate about building first-class web applications. I am currently looking for a role as a full-stack web developer. Below is a summarized list of technologies I mostly use :
             </p>
           </div>
             <img src={profile} alt="profile" width="350px" className="profile-image"/>
@@ -34,7 +33,7 @@ const About = () => {
             <li className="skills">React.js</li>
             <li className="skills">Node.js</li>
             <li className="skills">Ruby on Rails</li>
-            <li className="skills">Django</li>
+            <li className="skills">GraphQl</li>
           </ul>
           <ul className="skills-list">
             <li className="list-title">Skills</li>
