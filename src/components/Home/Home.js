@@ -1,12 +1,12 @@
 import React from "react";
 import {
   FiGithub,
-  FiInstagram,
-  FiTwitter,
   FiLinkedin,
   FiArrowDown,
   FiFileText,
 } from "react-icons/fi";
+import { SiAngellist } from "react-icons/si";
+import { BsMedium } from "react-icons/bs";
 import TypeAnimation from "react-type-animation";
 import "./Home.css";
 import Header from "../header/Header";
@@ -34,17 +34,17 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
               className="social-medias-link"
-              href="https://www.instagram.com/joshn_250/"
+              href="https://angel.co/u/ntwali-josue"
             >
-              <FiInstagram size={20} />
+              <SiAngellist size={20} />
             </a>
             <a
               target="_blank"
               rel="noreferrer"
               className="social-medias-link"
-              href="https://twitter.com/JosueNtwali"
+              href="https://medium.com/@kntwalijos"
             >
-              <FiTwitter size={20} />
+              <BsMedium size={20} />
             </a>
             <a
               target="_blank"
@@ -94,7 +94,7 @@ const Home = () => {
                   className="intro-description-text"
                 />{" "}
                 with a passion for building digital applications. I have a
-                strong background in both front-end and backend development. I
+                strong background in both front-end and back-end development. I
                 am currently freelancing and looking for a new challenge.
               </p>
             </div>
