@@ -137,7 +137,6 @@ li {
 
 .project-card {
   margin: auto;
-  cursor: pointer;
 }
 
 .project-card-content {
@@ -180,7 +179,6 @@ li {
 }
 
 .project-card-title:hover {
-  cursor: pointer;
   color: var(--green);
 }
 
