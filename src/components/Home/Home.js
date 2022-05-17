@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  FiGithub,
-  FiLinkedin,
-  FiArrowDown,
-  FiFileText,
-} from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiArrowDown, FiMail } from "react-icons/fi";
 import { SiAngellist } from "react-icons/si";
 import { BsMedium } from "react-icons/bs";
 import TypeAnimation from "react-type-animation";
@@ -19,7 +14,7 @@ const Home = () => {
   return (
     <div className="app">
       <Header />
-      <div className="home">
+      <div className="home" id="#">
         <section className="social-medias">
           <div className="social-medias-links">
             <a
@@ -77,15 +72,14 @@ const Home = () => {
             </div>
             <div className="intro-description">
               <p>
-                I am{" "}
                 <TypeAnimation
                   cursor={true}
                   sequence={[
-                    `a Software Engineer`,
+                    `A Software Engineer.`,
                     2000,
-                    "an Open Source enthusiast",
+                    "An Open Source enthusiast.",
                     2000,
-                    "a Student",
+                    "A Full stack developer 👨🏾‍💻.",
                     2000,
                   ]}
                   speed={100}
@@ -93,17 +87,24 @@ const Home = () => {
                   repeat={Infinity}
                   className="intro-description-text"
                 />{" "}
-                with a passion for building digital applications. I have a
+              </p>
+              <p>
+                I have a passion for building digital applications. I have a
                 strong background in both front-end and back-end development. I
-                am currently freelancing and looking for a new challenge.
+                am currently freelancing and looking for a new opportunities.
               </p>
             </div>
             <div className="intro-resume">
-              <a href="resume.pdf" target="_blank" rel="noreferrer">
-                <FiFileText size={20} className="file" />
-                CHECKOUT MY RESUME
+              <a
+                href="mailto:kntwalijos@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiMail size={20} className="file" />
+                GET IN TOUCH WITH ME
               </a>
             </div>
+            <div className="clear"></div>
             <div className="down-arrow">
               <a href="#about">
                 <FiArrowDown size={60} />

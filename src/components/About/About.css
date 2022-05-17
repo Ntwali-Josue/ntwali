@@ -16,6 +16,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .about-content {
@@ -32,7 +33,7 @@
 }
 
 .skills {
-  color: var(--light-slate);
+  color: var(--lightest-slate);
 }
 
 .about-me h2 {
@@ -79,7 +80,7 @@
 .flex {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 
 .profile-image {

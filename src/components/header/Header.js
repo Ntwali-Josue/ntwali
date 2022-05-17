@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="float-left">
-        <Link to="/">
+        <Link to="/#">
           <FiCode size={30} className="code-icon" />
         </Link>
       </div>

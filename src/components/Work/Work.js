@@ -47,7 +47,8 @@ const Work = () => {
               </p>
               <div className="project-links">
                 <ul>
-                  <li>React & Redux</li>
+                  <li>React</li>
+                  <li>Redux</li>
                   <li>Rails</li>
                   <li>Node.js</li>
                   <li>SQL</li>
@@ -96,7 +97,8 @@ const Work = () => {
               </p>
               <div className="project-links">
                 <ul>
-                  <li>React & Redux</li>
+                  <li>React</li>
+                  <li>Redux</li>
                   <li>Node.js</li>
                   <li>SQL</li>
                   <li>API</li>
@@ -270,8 +272,8 @@ const Work = () => {
                 <h3 className="project-card-title">Budget App</h3>
                 <div className="project-card-description">
                   <p>
-                    A web app, where users can manage their budget, 
-                    with a list of transactions to see how much money is spent.
+                    A web app, where users can manage their budget, with a list
+                    of transactions to see how much money is spent.
                   </p>
                 </div>
                 <div className="project-card-stacks">

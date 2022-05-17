@@ -5,7 +5,8 @@ a {
 }
 
 .home {
-  padding-top: 100px;
+  /* padding-top: 5%; */
+  height: 100vh;
 }
 
 .social-medias {
@@ -93,6 +94,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -135,7 +137,6 @@ a {
 
 .intro-resume a:hover {
   background-color: var(--green-tint);
-  font-size: var(--fz-xxl);
 }
 
 @keyframes jumpInfinite {
@@ -143,7 +144,7 @@ a {
     margin-top: 0;
   }
   50% {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   100% {
     margin-top: 0;
@@ -154,9 +155,14 @@ a {
   padding-right: 10px;
 }
 
+.clear {
+   clear: both;
+}
+
 .down-arrow {
-  width: 600px;
-  margin-top: 80px;
+  width: 60%;
+  display: none;
+  /* margin-top: 80px; */
   text-align: right;
   cursor: pointer;
   animation: jumpInfinite 2.0s infinite;

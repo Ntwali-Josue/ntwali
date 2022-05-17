@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: var(--white);
+  font-size: 14px;
   background-color: #0A192F;
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
@@ -34,7 +35,7 @@ html {
   --white: #e6f1ff;
   --green: #64ffda;
   --green-tint: #64ffda1a;
-  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
   --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
   --fz-xxs: 12px;
   --fz-xs: 13px;
