@@ -16,9 +16,8 @@ const Experience = () => {
         <div className="experience-list">
           <Tabs defaultIndex={0}>
             <TabList>
-              <Tab selected={true}>Microverse</Tab>
+              <Tab selected={true}>Keetela</Tab>
               <Tab>Andela</Tab>
-              <Tab>Keetela</Tab>
               <Tab>Lifestore Pharmacy</Tab>
             </TabList>
             <div>
@@ -26,107 +25,18 @@ const Experience = () => {
                 <div className="experience-description">
                   <div className="experience-title">
                     <h3>
-                      Mentor ~{" "}
-                      <a href="https://microverse.org" target="_blank" rel="noreferrer noopenner" className="company">
-                        Microverse
-                      </a>
-                    </h3>
-                    <span className="date">
-                      <BiCalendar size={15} /> January 2020 - Present
-                    </span>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p className="experience-details-text">
-                      Mentored junior web developers, provided technical support
-                      through code reviews.
-                    </p>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Proposed improvements to code organization to improve code
-                      quality and overall performance.
-                    </p>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Provided advice and tips on how to maintain motivation to
-                      maintain longevity in the program.
-                    </p>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="experience-description">
-                  <div className="experience-title">
-                    <h3>
                       Full stack developer ~
-                      <a href="https://rwanda.andela.com/" target="_blank" rel="noreferrer noopenner" className="company">
-                        {" "}
-                        Andela
-                      </a>
-                    </h3>
-                    <span className="date">
-                      <BiCalendar size={15} /> January 2020 - Present
-                    </span>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Created REST APIs using Javascript, mainly with Node.js
-                      and Express.js.
-                    </p>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Installed and configured virtualized environments like
-                      Docker.
-                    </p>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Run different Databases using MongoDB, firebase, and
-                      PostgreSQL.
-                    </p>
-                  </div>
-                  <div className="experience-details">
-                    <p>
-                      <GiDiamonds size={10} className="diamond" />
-                    </p>
-                    <p>
-                      Integrated and tested the codebase using Jest, Enzyme,
-                      Travis CI, and Mocha/Chai.
-                    </p>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="experience-description">
-                  <div className="experience-title">
-                    <h3>
-                      Full stack developer ~
-                      <a href="https://keetela.com/" target="_blank" rel="noreferrer noopenner" className="company">
+                      <a
+                        href="https://keetela.com/"
+                        target="_blank"
+                        rel="noreferrer noopenner"
+                        className="company"
+                      >
                         Keetela
                       </a>
                     </h3>
                     <span className="date">
-                      <BiCalendar size={15} /> January 2020 - Present
+                      <BiCalendar size={15} /> July,2020 – July,2021
                     </span>
                   </div>
                   <div className="experience-details">
@@ -152,8 +62,8 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond" />
                     </p>
                     <p>
-                      Build multi-store eCommerce as a full-stack engineer as
-                      DevOps engineer
+                      Worked with a team of three designers to build a marketing
+                      website and e-commerce platform.
                     </p>
                   </div>
                 </div>
@@ -163,12 +73,18 @@ const Experience = () => {
                   <div className="experience-title">
                     <h3>
                       Full stack developer ~
-                      <a href="https://lifestoreshealthcare.com/" target="_blank" rel="noreferrer noopenner" className="company">
-                        Lifestore Health Pharmacy
+                      <a
+                        href="https://rwanda.andela.com/"
+                        target="_blank"
+                        rel="noreferrer noopenner"
+                        className="company"
+                      >
+                        {" "}
+                        Andela
                       </a>
                     </h3>
                     <span className="date">
-                      <BiCalendar size={15} /> January 2020 - Present
+                      <BiCalendar size={15} /> April 2020 – June 2021
                     </span>
                   </div>
                   <div className="experience-details">
@@ -176,8 +92,9 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond" />
                     </p>
                     <p>
-                      Run backend apps using Python Django framework to deliver
-                      solutions and meet clients’ needs
+                      Work with a variety of different languages, frameworks,
+                      and content management systems such as JavaScript,
+                      TypeScript, React, Node.js, Express.js, etc.
                     </p>
                   </div>
                   <div className="experience-details">
@@ -185,8 +102,8 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond" />
                     </p>
                     <p>
-                      Implemented and improved pharmIQ UI as suggested by the
-                      Product Manager and the stakeholders.
+                      Write modern, performant, and robust code for a diverse
+                      array of client and internal projects.
                     </p>
                   </div>
                   <div className="experience-details">
@@ -194,8 +111,58 @@ const Experience = () => {
                       <GiDiamonds size={10} className="diamond" />
                     </p>
                     <p>
-                      Created and interacted with GraphQL queries, to make order
-                      queries from the backend database.
+                      Integrated and tested the codebase using Jest, Enzyme,
+                      Travis CI, and Mocha/Chai.
+                    </p>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="experience-description">
+                  <div className="experience-title">
+                    <h3>
+                      Full stack developer ~
+                      <a
+                        href="https://lifestoreshealthcare.com/"
+                        target="_blank"
+                        rel="noreferrer noopenner"
+                        className="company"
+                      >
+                        Lifestore Pharmacy
+                      </a>
+                    </h3>
+                    <span className="date">
+                      <BiCalendar size={15} /> Jan 2021 -April 2021
+                    </span>
+                  </div>
+                  <div className="experience-details">
+                    <p>
+                      <GiDiamonds size={10} className="diamond" />
+                    </p>
+                    <p>
+                      Developed and shipped highly interactive web applications
+                      for PharmIQ using Django.
+                    </p>
+                  </div>
+                  <div className="experience-details">
+                    <p>
+                      <GiDiamonds size={10} className="diamond" />
+                    </p>
+                    <p>
+                      Interfaced with user experience designers and other
+                      developers to ensure thoughtful and coherent user
+                      experiences across lifestyle health pharmacy’s web
+                      layouts.
+                    </p>
+                  </div>
+                  <div className="experience-details">
+                    <p>
+                      <GiDiamonds size={10} className="diamond" />
+                    </p>
+                    <p>
+                      Communicate and collaborate with multi-disciplinary teams
+                      of engineers, designers, pharmacists, clients, and
+                      stakeholders on a daily basis.
                     </p>
                   </div>
                 </div>

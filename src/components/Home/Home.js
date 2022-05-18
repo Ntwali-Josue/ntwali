@@ -75,11 +75,11 @@ const Home = () => {
                 <TypeAnimation
                   cursor={true}
                   sequence={[
-                    `A Software Engineer.`,
+                    `A Full Stack Developer`,
                     2000,
                     "An Open Source enthusiast.",
                     2000,
-                    "A Full stack developer 👨🏾‍💻.",
+                    "A .",
                     2000,
                   ]}
                   speed={100}
