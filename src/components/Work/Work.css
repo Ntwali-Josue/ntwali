@@ -147,14 +147,14 @@ li {
 }
 
 .project-card-content {
-  box-shadow: 0 10px 30px -15px var(--navy-shadow);
   padding: 15px 25px;
   border-radius: var(--border-radius);
+  border: 1px solid var(--light-navy);
   background-color: var(--light-navy);
 }
 
 .project-card-content:hover {
-  border: 1px solid var(--green);
+  border-color: var(--green);
 }
 
 .project-card-top {

@@ -78,9 +78,7 @@ const Home = () => {
                     `A Full Stack Developer.`,
                     2000,
                     "An Open Source enthusiast.",
-                    2000,
-                    "UI & UX Designer.",
-                    2000,
+                    2000
                   ]}
                   speed={100}
                   wrapper="a"
