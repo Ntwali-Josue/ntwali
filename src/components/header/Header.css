@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+  width: 97%;
+  border-bottom: var(--navy-shadow);
+  background: transparent;
+  z-index: 3;
+}
+
+.code-icon {
+  color: var(--green);
+}
+
+.nav-links {
+  color: #bfcdd3;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+.nav-links:hover {
+  color: #63f3e2;
+}
+
+.links-counter {
+  color: #63f3e2;
+}
+
+.nav-logo {
+  width: 50px;
+}
+
+.moon-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.moon-icon:hover {
+  color: #63f3e2;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon div {
+  width: 30px;
+  height: 3px;
+  margin: 6px;
+  background: var(--green);
+  transition: 0.3s ease-in;
+}
+
+@media (max-width:768px) {
+  .header {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  .code-icon {
+    margin-top: 10px;
+  }
+
+  .nav-links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .nav-links-sect {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    background-color: var(--navy);
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    height: 100vh;
+  }
+
+  .nav-links {
+    margin: 30px 0;
+  }
+
+  .nav-active {
+    transform: translateX(0);
+  }
+
+  .menu-icon {
+    display: block;
+    /* margin-left: 50px; */
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 8px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -8px);
+
+  }
+}
